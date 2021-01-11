@@ -12,6 +12,8 @@ import { useLocation } from "react-router-dom";
 import { fadeIn } from "../animations";
 
 const Home = () => {
+  console.log("s");
+  console.log("sss");
   //get the current location
   const location = useLocation();
   const pathId = location.pathname.split("/")[2];
