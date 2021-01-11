@@ -11,6 +11,7 @@ import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
 
 const Home = () => {
+  console.log("s");
   //get the current location
   const location = useLocation();
   const pathId = location.pathname.split("/")[2];
